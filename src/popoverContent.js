@@ -167,6 +167,22 @@ export const PopoverSkillsContent = () => {
             Python
           </Highlight>
         </Box>
+        <Box>
+          <Highlight
+            query="Agile/Scrum"
+            styles={{ px: "2", py: "1", rounded: "full", bg: "gray.200" }}
+          >
+            Agile/Scrum
+          </Highlight>
+        </Box>
+        <Box>
+          <Highlight
+            query="Jest"
+            styles={{ px: "2", py: "1", rounded: "full", bg: "gray.200" }}
+          >
+            Jest
+          </Highlight>
+        </Box>
       </SimpleGrid>
       <br />
       <Divider />
