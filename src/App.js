@@ -1,7 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import { ActionsBar } from "./ActionsBar";
-import { OptionsGrid } from "./MainOptionsGrid";
+import { OptionsGrid } from "./mainOptionsGrid";
 
 const App = () => {
   return (

@@ -6,16 +6,17 @@ import {
   ChakraProvider,
 } from "@chakra-ui/react";
 import React from "react";
-import { LogoButton } from "./LogoButton";
 
 export const ActionsBar = () => {
   return (
     <ChakraProvider>
       <Grid templateColumns="repeat(30, 1fr)" padding="20px">
-        <GridItem colSpan={1} paddingTop={"3px"}>
-          <LogoButton />
-        </GridItem>
-        <GridItem colSpan={15} colStart={2} paddingLeft={"10px"}>
+        <GridItem
+          colSpan={15}
+          colStart={1}
+          paddingLeft={"10px"}
+          paddingTop={"10px"}
+        >
           <Heading>
             <Highlight
               query="Bendall"
