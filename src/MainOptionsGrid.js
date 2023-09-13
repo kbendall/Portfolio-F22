@@ -40,7 +40,7 @@ export const OptionsGrid = () => {
               <PopoverContent
                 textAlign="left"
                 textColor="black"
-                minWidth="1626"
+                minWidth="800"
                 marginLeft={"20px"}
               >
                 <PopoverArrow />
@@ -69,8 +69,10 @@ export const OptionsGrid = () => {
               <PopoverContent
                 textAlign="left"
                 textColor="black"
-                minWidth="1626"
+                minWidth="800"
                 marginLeft={"20px"}
+                // change autofocus to off
+                // also make it so that the other tabs shrink when a different one is open and so the popup can take up less scrolling space or can open sideways
               >
                 <PopoverArrow />
                 <PopoverCloseButton />
@@ -98,7 +100,7 @@ export const OptionsGrid = () => {
               <PopoverContent
                 textAlign="left"
                 textColor="black"
-                minWidth="1626"
+                minWidth="800"
                 marginRight={"20px"}
               >
                 <PopoverArrow />
