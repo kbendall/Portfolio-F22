@@ -1,4 +1,4 @@
-import { Grid, SimpleGrid, GridItem, Heading, Text } from "@chakra-ui/react";
+import { Grid, SimpleGrid, GridItem, Heading } from "@chakra-ui/react";
 import flow2 from "./Videos/flow2.MOV";
 import jsonData from "../data.json";
 
