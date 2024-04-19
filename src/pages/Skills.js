@@ -5,6 +5,7 @@ import {
   Box,
   Grid,
   GridItem,
+  Heading,
 } from "@chakra-ui/react";
 
 const Skills = () => {
@@ -29,10 +30,41 @@ const Skills = () => {
           bgColor="#f2f2f2"
           p={20}
         >
+          <Heading>Skills</Heading>
+          <br />
+          <br />
           <span style={{ fontWeight: "bold" }}>Software</span>
           <br />
           <br />
           <SimpleGrid columns="4" spacingY="8" spacingX="20">
+            <Box>
+              <Highlight
+                query="C++"
+                styles={{
+                  px: "2",
+                  py: "1",
+                  rounded: "full",
+                  bg: "#708C7D",
+                  color: "white",
+                }}
+              >
+                C++
+              </Highlight>
+            </Box>
+            <Box>
+              <Highlight
+                query="Python"
+                styles={{
+                  px: "2",
+                  py: "1",
+                  rounded: "full",
+                  bg: "#708C7D",
+                  color: "white",
+                }}
+              >
+                Python
+              </Highlight>
+            </Box>
             <Box>
               <Highlight
                 query="Javascript"
@@ -49,7 +81,7 @@ const Skills = () => {
             </Box>
             <Box>
               <Highlight
-                query="CSS"
+                query="Kotlin"
                 styles={{
                   px: "2",
                   py: "1",
@@ -58,7 +90,63 @@ const Skills = () => {
                   color: "white",
                 }}
               >
-                CSS
+                Kotlin
+              </Highlight>
+            </Box>
+            <Box>
+              <Highlight
+                query="MATLAB"
+                styles={{
+                  px: "2",
+                  py: "1",
+                  rounded: "full",
+                  bg: "#708C7D",
+                  color: "white",
+                }}
+              >
+                MATLAB
+              </Highlight>
+            </Box>
+            <Box>
+              <Highlight
+                query="React"
+                styles={{
+                  px: "2",
+                  py: "1",
+                  rounded: "full",
+                  bg: "#708C7D",
+                  color: "white",
+                }}
+              >
+                React
+              </Highlight>
+            </Box>
+            <Box>
+              <Highlight
+                query="C"
+                styles={{
+                  px: "2",
+                  py: "1",
+                  rounded: "full",
+                  bg: "#708C7D",
+                  color: "white",
+                }}
+              >
+                C
+              </Highlight>
+            </Box>
+            <Box>
+              <Highlight
+                query="OpenCV"
+                styles={{
+                  px: "2",
+                  py: "1",
+                  rounded: "full",
+                  bg: "#708C7D",
+                  color: "white",
+                }}
+              >
+                OpenCV
               </Highlight>
             </Box>
             <Box>
@@ -77,7 +165,7 @@ const Skills = () => {
             </Box>
             <Box>
               <Highlight
-                query="C++"
+                query="CSS"
                 styles={{
                   px: "2",
                   py: "1",
@@ -86,21 +174,7 @@ const Skills = () => {
                   color: "white",
                 }}
               >
-                C++
-              </Highlight>
-            </Box>
-            <Box>
-              <Highlight
-                query="React"
-                styles={{
-                  px: "2",
-                  py: "1",
-                  rounded: "full",
-                  bg: "#708C7D",
-                  color: "white",
-                }}
-              >
-                React
+                CSS
               </Highlight>
             </Box>
             <Box>
@@ -129,48 +203,6 @@ const Skills = () => {
                 }}
               >
                 Jira
-              </Highlight>
-            </Box>
-            <Box>
-              <Highlight
-                query="Python"
-                styles={{
-                  px: "2",
-                  py: "1",
-                  rounded: "full",
-                  bg: "#708C7D",
-                  color: "white",
-                }}
-              >
-                Python
-              </Highlight>
-            </Box>
-            <Box>
-              <Highlight
-                query="OpenCV"
-                styles={{
-                  px: "2",
-                  py: "1",
-                  rounded: "full",
-                  bg: "#708C7D",
-                  color: "white",
-                }}
-              >
-                OpenCV
-              </Highlight>
-            </Box>
-            <Box>
-              <Highlight
-                query="Agile/Scrum"
-                styles={{
-                  px: "2",
-                  py: "1",
-                  rounded: "full",
-                  bg: "#708C7D",
-                  color: "white",
-                }}
-              >
-                Agile/Scrum
               </Highlight>
             </Box>
             <Box>

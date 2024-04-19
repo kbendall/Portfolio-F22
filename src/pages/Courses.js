@@ -31,10 +31,11 @@ const Courses = () => {
           bgColor="#f2f2f2"
           p={20}
         >
-          <Heading>Completed Courses</Heading>
+          <Heading>Courses</Heading>
+          <br />
           <Text>
             All completed at the University of Waterloo as a candidate for a
-            Bachelors of Applied Science in Honours Mechatronics Engineering
+            Bachelors of Applied Science in Honours Mechatronics Engineering.
           </Text>
           <br />
           <br />
@@ -619,6 +620,116 @@ const Courses = () => {
                   }}
                 >
                   Workterm Report: Safety Through Manufacturing and Custom Tools
+                </Highlight>
+              </a>
+            </Box>
+          </SimpleGrid>
+          <br />
+          <Divider />
+          <br />
+          <br />
+          <span style={{ fontWeight: "bold" }}>Currently enrolled: 3A</span>
+          <br />
+          <br />
+          <SimpleGrid columns="2" spacingY="8" spacingX="20">
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2223/COURSE/course-MTE.html#MTE309"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Introduction to Thermodynamics and Heat Transfer"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Introduction to Thermodynamics and Heat Transfer
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2122/COURSE/course-MTE.html#MTE320"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Actuators and Power Electronics"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Actuators and Power Electronics
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2122/COURSE/course-MTE.html#MTE321"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Design and Dynamics of Machines"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Design and Dynamics of Machines
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2122/COURSE/course-MTE.html#MTE325"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Microprocessor Systems and Interfacing for Mechatronics Engineering"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Microprocessor Systems and Interfacing for Mechatronics
+                  Engineering
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2122/COURSE/course-MTE.html#MTE351"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Systems Models 1"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Systems Models 1
                 </Highlight>
               </a>
             </Box>

@@ -29,7 +29,7 @@ const Home = () => {
             <Box position="absolute" bottom={-350} right={-1050} w="1000px">
               <img
                 src="\icons\homePage.png"
-                alt="A 45 degree angle headshot of me lifting the face off a humanoid robot head with smoke escaping from the inside of the head."
+                alt="A 45 degree angle headshot of me lifting the face off a humanoid robot bust with smoke escaping upwards from the inside of the head."
               />
             </Box>
           </Box>

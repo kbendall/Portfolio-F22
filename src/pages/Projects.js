@@ -1,4 +1,4 @@
-import { Grid, SimpleGrid, GridItem } from "@chakra-ui/react";
+import { Grid, SimpleGrid, GridItem, Heading, Text } from "@chakra-ui/react";
 import flow2 from "./Videos/flow2.MOV";
 import jsonData from "../data.json";
 
@@ -25,6 +25,74 @@ const Projects = () => {
           bgColor="#f2f2f2"
           p={20}
         >
+          <Heading>Projects</Heading>
+          <br />
+          <br />
+          <span style={{ fontWeight: "bold" }}>Chess Playing Social Robot</span>
+          <div>{data.socialChess}</div>
+          <br />
+          <Grid templateColumns="repeat(7, 1fr)">
+            <GridItem colStart={2} colEnd={4}>
+              <img
+                width="100%"
+                src="\icons\catchIDI.jpg"
+                alt="Booth display at a conference. A table is set up with a laptop showing a chess board and the bust of a humanoid robot. Two banners promoting the NorwAI flank the table."
+              />
+            </GridItem>
+            <GridItem colStart={5} colEnd={7}>
+              <iframe
+                title="test"
+                src="\icons\annualReport.pdf"
+                width="100%"
+                height="100%"
+              />
+            </GridItem>
+          </Grid>
+          <br />
+          <br />
+          <br />
+          <span style={{ fontWeight: "bold" }}>
+            Live Meeting Moderator Program
+          </span>
+          <div>{data.robertsRules}</div>
+          <br />
+          {/* <Grid templateColumns="repeat(7, 1fr)">
+            <GridItem colStart={2} colEnd={4}>
+              <img
+                width="100%"
+                src="\icons\flow.jpg"
+                alt="Inside of electrical flow box"
+              />
+            </GridItem>
+            <GridItem colStart={5} colEnd={7}>
+              <video src={flow2} width="800" height="400" controls />
+            </GridItem>
+          </Grid> */}
+          <br />
+          <br />
+          <br />
+          <span style={{ fontWeight: "bold" }}>Canny Edge Detector</span>
+          <div>{data.cannyEdge}</div>
+          <br />
+          <Grid templateColumns="repeat(7, 1fr)">
+            <GridItem colStart={2} colEnd={4}>
+              <img
+                width="100%"
+                src="\icons\cannyEdgeOriginal.jpg"
+                alt="An embroidered patch is on a wooden table. The patch is purple with the yellow Wilfred Laurier University golden hawks emblem and the text 'Laurier Engineering'"
+              />
+            </GridItem>
+            <GridItem colStart={5} colEnd={7}>
+              <img
+                wifth="100%"
+                src="\icons\cannyEdge.png"
+                alt="A black background has a white outline of the original patch."
+              />
+            </GridItem>
+          </Grid>
+          <br />
+          <br />
+          <br />
           <span style={{ fontWeight: "bold" }}>Flow Meter Comparison Jig</span>
           <div>{data.flowMeter}</div>
           <br />
