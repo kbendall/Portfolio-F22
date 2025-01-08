@@ -28,6 +28,30 @@ const Projects = () => {
           <Heading>Projects</Heading>
           <br />
           <br />
+          <span style={{ fontWeight: "bold" }}>
+            Two Axis Machine Controller
+          </span>
+          <div>{data.twoAxis}</div>
+          <br />
+          <Grid templateColumns="repeat(7, 1fr)">
+            <GridItem colStart={2} colEnd={4}>
+              <img
+                width="100%"
+                src="\icons\nucleoSTM32Stack.jpg"
+                alt="A Nucleo board is stacked on top of an STM32 board. Multi-coloured wires are inserted into connectors on the Nucleo and the STM32 has a red LED."
+              />
+            </GridItem>
+            <GridItem colStart={5} colEnd={7}>
+              <img
+                wifth="100%"
+                src="\icons\twoAxisMachine.png"
+                alt="A vertical, lead screw based two axis machine sits on a desk in a university lab with desks and chairs."
+              />
+            </GridItem>
+          </Grid>
+          <br />
+          <br />
+          <br />
           <span style={{ fontWeight: "bold" }}>Chess Playing Social Robot</span>
           <div>{data.socialChess}</div>
           <br />
@@ -55,19 +79,6 @@ const Projects = () => {
             Live Meeting Moderator Program
           </span>
           <div>{data.robertsRules}</div>
-          <br />
-          {/* <Grid templateColumns="repeat(7, 1fr)">
-            <GridItem colStart={2} colEnd={4}>
-              <img
-                width="100%"
-                src="\icons\flow.jpg"
-                alt="Inside of electrical flow box"
-              />
-            </GridItem>
-            <GridItem colStart={5} colEnd={7}>
-              <video src={flow2} width="800" height="400" controls />
-            </GridItem>
-          </Grid> */}
           <br />
           <br />
           <br />

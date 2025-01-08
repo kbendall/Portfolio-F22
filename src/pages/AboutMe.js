@@ -127,12 +127,31 @@ const AboutMe = () => {
           <br />
           <Grid templateColumns="repeat(3, 1fr)">
             <GridItem
+              colStart={2}
+              colSpan={2}
+              rowStart={1}
+              padding={"10px"}
+              alignSelf="center"
+            >
+              <div style={{ fontSize: "18px" }}>{data.aboutMe5}</div>
+            </GridItem>
+            <GridItem colStart={1} padding={"10px"}>
+              <img
+                src="\icons\deepBlue.png"
+                alt="Light blue submarine on white background white ombre wave shapes and UW Deep Blue text."
+              />
+            </GridItem>
+          </Grid>
+          <br />
+          <br />
+          <Grid templateColumns="repeat(3, 1fr)">
+            <GridItem
               colStart={1}
               colSpan={2}
               padding={"10px"}
               alignSelf="center"
             >
-              <div style={{ fontSize: "18px" }}>{data.aboutMe5}</div>
+              <div style={{ fontSize: "18px" }}>{data.aboutMe6}</div>
             </GridItem>
             <GridItem colStart={3} padding={"10px"} rowStart={1}>
               <img
@@ -150,7 +169,7 @@ const AboutMe = () => {
               padding={"10px"}
               alignSelf="center"
             >
-              <div style={{ fontSize: "18px" }}>{data.aboutMe6}</div>
+              <div style={{ fontSize: "18px" }}>{data.aboutMe7}</div>
             </GridItem>
             <GridItem colStart={1} padding={"10px"} rowStart={1}>
               <img

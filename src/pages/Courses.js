@@ -475,160 +475,7 @@ const Courses = () => {
           <Divider />
           <br />
           <br />
-          <span style={{ fontWeight: "bold" }}>
-            Additional Courses and Program Activities
-          </span>
-          <br />
-          <br />
-          <SimpleGrid columns="2" spacingY="8" spacingX="20">
-            <Box>
-              <a
-                href="https://ucalendar.uwaterloo.ca/2223/COURSE/course-ENGL.html#ENGL108D"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Highlight
-                  query="Digital Lives"
-                  styles={{
-                    px: "2",
-                    py: "1",
-                    rounded: "full",
-                    bg: "#708C7D",
-                    color: "white",
-                  }}
-                >
-                  Digital Lives
-                </Highlight>
-              </a>
-            </Box>
-            <Box>
-              <a
-                href="https://ucalendar.uwaterloo.ca/2122/COURSE/course-PD.html#PD19"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Highlight
-                  query="Tactics for Workplace Success"
-                  styles={{
-                    px: "2",
-                    py: "1",
-                    rounded: "full",
-                    bg: "#708C7D",
-                    color: "white",
-                  }}
-                >
-                  Tactics for Workplace Success
-                </Highlight>
-              </a>
-            </Box>
-            <Box>
-              <a
-                href="https://ucalendar.uwaterloo.ca/2223/COURSE/course-PD.html#PD20"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Highlight
-                  query="Engineering Workplace Skills 1: Developing Reasoned Conclusions"
-                  styles={{
-                    px: "2",
-                    py: "1",
-                    rounded: "full",
-                    bg: "#708C7D",
-                    color: "white",
-                  }}
-                >
-                  Engineering Workplace Skills 1: Developing Reasoned
-                  Conclusions
-                </Highlight>
-              </a>
-            </Box>
-            <Box>
-              <a
-                href="https://ucalendar.uwaterloo.ca/2223/COURSE/course-PD.html#PD9"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Highlight
-                  query="Ethical Decision Making"
-                  styles={{
-                    px: "2",
-                    py: "1",
-                    rounded: "full",
-                    bg: "#708C7D",
-                    color: "white",
-                  }}
-                >
-                  Ethical Decision Making
-                </Highlight>
-              </a>
-            </Box>
-            <Box>
-              <a
-                href="https://ucalendar.uwaterloo.ca/2324/COURSE/course-PD.html#PD22"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Highlight
-                  query="Professionalism and Ethics in Engineering Practice"
-                  styles={{
-                    px: "2",
-                    py: "1",
-                    rounded: "full",
-                    bg: "#708C7D",
-                    color: "white",
-                  }}
-                >
-                  Professionalism and Ethics in Engineering Practice
-                </Highlight>
-              </a>
-            </Box>
-            <Box>
-              <a
-                href="https://ucalendar.uwaterloo.ca/2223/COURSE/course-WKRPT.html#WKRPT100"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Highlight
-                  query="Workterm Report: From Conception to Household Use: The Differences Between AR and VR"
-                  styles={{
-                    px: "2",
-                    py: "1",
-                    rounded: "full",
-                    bg: "#708C7D",
-                    color: "white",
-                  }}
-                >
-                  Workterm Report: From Conception to Household Use: The
-                  Differences Between AR and VR
-                </Highlight>
-              </a>
-            </Box>
-            <Box>
-              <a
-                href="https://ucalendar.uwaterloo.ca/2324/COURSE/course-WKRPT.html#WKRPT200"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Highlight
-                  query="Workterm Report: Safety Through Manufacturing and Custom Tools"
-                  styles={{
-                    px: "2",
-                    py: "1",
-                    rounded: "full",
-                    bg: "#708C7D",
-                    color: "white",
-                  }}
-                >
-                  Workterm Report: Safety Through Manufacturing and Custom Tools
-                </Highlight>
-              </a>
-            </Box>
-          </SimpleGrid>
-          <br />
-          <Divider />
-          <br />
-          <br />
-          <span style={{ fontWeight: "bold" }}>Currently enrolled: 3A</span>
+          <span style={{ fontWeight: "bold" }}>3A</span>
           <br />
           <br />
           <SimpleGrid columns="2" spacingY="8" spacingX="20">
@@ -730,6 +577,328 @@ const Courses = () => {
                   }}
                 >
                   Systems Models 1
+                </Highlight>
+              </a>
+            </Box>
+          </SimpleGrid>
+          <br />
+          <Divider />
+          <br />
+          <br />
+          <span style={{ fontWeight: "bold" }}>
+            Additional Courses and Program Activities
+          </span>
+          <br />
+          <br />
+          <SimpleGrid columns="2" spacingY="8" spacingX="20">
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2223/COURSE/course-ENGL.html#ENGL108D"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Digital Lives"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Digital Lives
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2324/COURSE/course-HIST.html#HIST216"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="From Gutenberg to Zuckerberg: A (Long) History of the Internet"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  From Gutenberg to Zuckerberg: A (Long) History of the Internet
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2122/COURSE/course-PD.html#PD19"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Tactics for Workplace Success"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Tactics for Workplace Success
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2223/COURSE/course-PD.html#PD20"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Engineering Workplace Skills 1: Developing Reasoned Conclusions"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Engineering Workplace Skills 1: Developing Reasoned
+                  Conclusions
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2223/COURSE/course-PD.html#PD9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Ethical Decision Making"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Ethical Decision Making
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2324/COURSE/course-PD.html#PD22"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Professionalism and Ethics in Engineering Practice"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Professionalism and Ethics in Engineering Practice
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2324/COURSE/course-PD.html#PD13"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Research in the Workplace"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Research in the Workplace
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2223/COURSE/course-WKRPT.html#WKRPT100"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Workterm Report: From Conception to Household Use: The Differences Between AR and VR"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Workterm Report: From Conception to Household Use: The
+                  Differences Between AR and VR
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2324/COURSE/course-WKRPT.html#WKRPT200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Workterm Report: Safety Through Manufacturing and Custom Tools"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Workterm Report: Safety Through Manufacturing and Custom Tools
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2324/COURSE/course-WKRPT.html#WKRPT300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Workterm Report: Ultrasonic Flow Meter Testing Apparatus"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Workterm Report: Ultrasonic Flow Meter Testing Apparatus
+                </Highlight>
+              </a>
+            </Box>
+          </SimpleGrid>
+          <br />
+          <Divider />
+          <br />
+          <br />
+          <span style={{ fontWeight: "bold" }}>Currently enrolled: 3B</span>
+          <br />
+          <br />
+          <SimpleGrid columns="2" spacingY="8" spacingX="20">
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2223/COURSE/course-MTE.html#MTE322"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Electromechanical Machine Design"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Electromechanical Machine Design
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2122/COURSE/course-MTE.html#MTE360"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Automatic Control Systems"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Automatic Control Systems
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://ucalendar.uwaterloo.ca/2122/COURSE/course-MTE.html#MTE380"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Mechatronics Engineering Design Workshop"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Mechatronics Engineering Design Workshop
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://uwaterloo.ca/academic-calendar/undergraduate-studies/catalog#/courses/view/65cd44b97a54056a08805232"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Fluid Mechanics 1"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Fluid Mechanics 1
+                </Highlight>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="https://uwaterloo.ca/academic-calendar/undergraduate-studies/catalog#/courses/view/65ce3d7a187f5ef8f3913b98"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Highlight
+                  query="Engineering Economics: Financial Management for Engineers"
+                  styles={{
+                    px: "2",
+                    py: "1",
+                    rounded: "full",
+                    bg: "#708C7D",
+                    color: "white",
+                  }}
+                >
+                  Engineering Economics: Financial Management for Engineers
                 </Highlight>
               </a>
             </Box>
